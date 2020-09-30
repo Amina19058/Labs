@@ -6,7 +6,7 @@ int main(void) {
     int N;
 
     if (scanf("%d", &N) != 1 || N <= 0) {
-        printf("Illegal N\n");
+        printf("Illegal N!\n");
         return 1;
     }
 
